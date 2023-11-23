@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="browser" value="firefox"></parameter>
+  <parameter name="headless" value="no"></parameter>
+  <parameter name="privateBrowsing" value="no"></parameter>
+  <parameter name="url" value="https://www.google.com"></parameter>
+  <parameter name="data" value="Selenium Tutorials"></parameter>
+  
+  <classes><class name = "com.crossBrowser.CrossBrowser"/></classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
