@@ -6,8 +6,6 @@
       <class name="com.crossBrowser.CrossBrowser">
         <methods>
           <include name="LaunchBrowser"/>
-          <include name="enterData"/>
-          <include name="openBrowser"/>
           <include name="searchData"/>
           <include name="teardown"/>
         </methods>

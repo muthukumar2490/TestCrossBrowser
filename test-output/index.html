@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,17 +104,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.crossBrowser.CrossBrowser" class="method navigator-link" hash-for-method="openBrowser(https://www.google.com)">openBrowser(https://www.google.com)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.crossBrowser.CrossBrowser" class="method navigator-link" hash-for-method="searchData(https://www.google.com, Selenium Tutorials)">searchData(https://www.google.com, Selenium Tutorials)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.crossBrowser.CrossBrowser" class="method navigator-link" hash-for-method="verifyTitle(https://www.google.com, Selenium Tutorials)">verifyTitle(https://www.google.com, Selenium Tutorials)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -137,25 +127,9 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="openBrowser(https://www.google.com)">
-                  </a> <!-- openBrowser(https://www.google.com) -->
-                  <span class="method-name">openBrowser</span>
-                  <span class="parameters">(https://www.google.com)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="searchData(https://www.google.com, Selenium Tutorials)">
                   </a> <!-- searchData(https://www.google.com, Selenium Tutorials) -->
                   <span class="method-name">searchData</span>
-                  <span class="parameters">(https://www.google.com, Selenium Tutorials)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyTitle(https://www.google.com, Selenium Tutorials)">
-                  </a> <!-- verifyTitle(https://www.google.com, Selenium Tutorials) -->
-                  <span class="method-name">verifyTitle</span>
                   <span class="parameters">(https://www.google.com, Selenium Tutorials)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -170,7 +144,7 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+&lt;suite name=&quot;Suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;parameter name=&quot;headless&quot; value=&quot;no&quot;/&gt;
     &lt;parameter name=&quot;data&quot; value=&quot;Selenium Tutorials&quot;/&gt;
@@ -218,24 +192,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'searchData')
 data.setCell(0, 2, 'com.crossBrowser.CrossBrowser')
-data.setCell(0, 3, 2245);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'openBrowser')
-data.setCell(1, 2, 'com.crossBrowser.CrossBrowser')
-data.setCell(1, 3, 2147);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyTitle')
-data.setCell(2, 2, 'com.crossBrowser.CrossBrowser')
-data.setCell(2, 3, 1701);
+data.setCell(0, 3, 1980);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -262,42 +228,18 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">com.crossBrowser.CrossBrowser</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
+              <div class="configuration-test before">
                 <span class="method-name">LaunchBrowser(firefox, no, no)</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">openBrowser(https://www.google.com)</span>
-                <span class="method-start">3531 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">teardown</span>
-                <span class="method-start">5681 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">LaunchBrowser(firefox, no, no)</span>
-                <span class="method-start">6828 ms</span>
-              </div> <!-- configuration-method before -->
+              </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">searchData(https://www.google.com, Selenium Tutorials)</span>
-                <span class="method-start">9128 ms</span>
+                <span class="method-start">3345 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
+              <div class="configuration-test after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">11376 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">LaunchBrowser(firefox, no, no)</span>
-                <span class="method-start">12313 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyTitle(https://www.google.com, Selenium Tutorials)</span>
-                <span class="method-start">14559 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">teardown</span>
-                <span class="method-start">16261 ms</span>
-              </div> <!-- configuration-method after -->
+                <span class="method-start">5338 ms</span>
+              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
